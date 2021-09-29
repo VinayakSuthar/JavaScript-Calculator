@@ -29,7 +29,7 @@ allClear.addEventListener("click", () => {
 });
 
 deleteNumber.addEventListener("click", () => {
-  current = current.slice(0, -1);
+  current = current.toString().slice(0, -1);
   updateDisplay();
 });
 
